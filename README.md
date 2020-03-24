@@ -6,7 +6,7 @@
   * [x] Trie
   * [ ] AVL
   * [ ] 红黑树
-  * [ ] 树状数组
+  * [x] 树状数组
   * [ ] 线段树
 
 ### 算法
@@ -14,8 +14,9 @@
 * 串匹配
   * [x] Sunday
   * [x] KMP
-  * [ ] BMHBNFS
-
+  * [x] BMHBNFS
+* [x] Boyer-Moore
+  
 * 排序算法
   * [x] 快速排序
 
