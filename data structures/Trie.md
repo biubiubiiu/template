@@ -52,6 +52,19 @@ public:
 }
 ```
 
+Python的实现看起来比较奇技淫巧一点...
+
+```python
+Trie = lambda: collections.defaultdict(Trie)
+trie = Trie()
+
+words = [....]
+#insert
+#reduce(..., S, trie) is trie[S[0]][S[1]][S[2]][...][S[S.length - 1]]
+nodes = [reduce(dict.__getitem__, word[::-1], trie)
+         for word in words]
+```
+
 
 
 
