@@ -10,7 +10,7 @@ class DSU {
     }
     
     public int find(int x) {
-        if(p[x] == x) return x;
+        if(parent[x] == x) return x;
         else {
             parent[x] = find(parent[x]); // 路径压缩
             return parent[x];
