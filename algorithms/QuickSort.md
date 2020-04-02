@@ -34,7 +34,7 @@ int partition(vector<int>& arr, int lo, int hi) {
 int partition(vector<int>& arr, int lo, int hi) {
     int mid = (lo+hi)>>1;
     int pivot = arr[mid];
-    int i = lo-1, j = hi+1;
+    int i = lo, j = hi;
     while(i<j) {
         while(i<j && A[i]<pivot) ++i;
         while(i<j && A[j]>pivot) --j;
