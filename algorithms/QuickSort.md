@@ -9,7 +9,7 @@ void quickSort(vector<int>& arr, int lo, int hi) {
 
 `partition`要做的事情是选择一个枢纽元`pivot`，根据每个元素与`pivot`的相对大小关系，将元素分别放置在`pivot`的两侧。
 
-#### 两种不同的`partition`函数实现（以递增序为例）
+### 两种不同的`partition`函数实现（以递增序为例）
 
 **Lomuto partition**（更常用）
 
